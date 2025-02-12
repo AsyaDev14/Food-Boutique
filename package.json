@@ -5,7 +5,7 @@
   "homepage": "https://AsyaDev14.github.io/Food-Boutique",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /project-js/"
+    "build": "parcel build src/*.html --public-url /Food-Boutique/"
   },
   "repository": {
     "type": "git",
