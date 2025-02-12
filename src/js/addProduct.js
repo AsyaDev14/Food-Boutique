@@ -6,7 +6,7 @@ export function onAddBtnClick(e) {
   if (!e.target.closest('button.js-buy-btn')) {
     return;
   }
-
+  
   e.stopPropagation();
   const cardEl = e.target.closest('li');
   const id = cardEl.dataset.productId;
